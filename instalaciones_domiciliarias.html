@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalaciones Eléctricas Domiciliarias - Grace Automation SPA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            position: relative;
+            z-index: 1;
+            animation: flicker 1.5s infinite alternate;
+        }
+        @keyframes flicker {
+            0% { opacity: 1; }
+            50% { opacity: 0.8; }
+            100% { opacity: 1; }
+        }
+        .container {
+            padding: 20px;
+        }
+        .details, .gallery {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        .gallery h2 {
+            margin-top: 0;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery-container img:hover {
+            transform: scale(1.1);
+        }
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .contact-buttons a {
+            display: inline-block;
+            padding: 10px 30px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #0057b3;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.1em;
+            text-align: center;
+        }
+        .contact-buttons a:hover {
+            background-color: #003d80;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Instalaciones Eléctricas Domiciliarias ⚡</h1>
+</header>
+
+<div class="container">
+    <section class="details">
+        <h2>Reseña</h2>
+        <p>Montaje y mantenciones eléctricas domiciliarias.</p>
+        <h2>Descripción</h2>
+        <p>Cuéntanos tu proyecto y pondremos a tu disposición un equipo técnico especializado para concretarlo.</p>
+        <h2>Detalles</h2>
+        <ul>
+            <li>Normalizamos y ampliamos su instalación eléctrica.</li>
+            <li>Aumento de capacidad.</li>
+            <li>Planos eléctricos.</li>
+            <li>Tramitación TE1.</li>
+            <li>Otros servicios relacionados.</li>
+        </ul>
+    </section>
+
+    <section class="gallery">
+        <h2>Fotos de Nuestros Trabajos ⚡</h2>
+        <div class="gallery-container">
+            <img src="https://graceramirez25.github.io/GraceAutomationWeb/instalaciones_domi2.jpeg" alt="Instalación eléctrica 2">
+            <img src="https://graceramirez25.github.io/GraceAutomationWeb/instalaciones_domi3.jpeg" alt="Instalación eléctrica 3">
+            <img src="https://graceramirez25.github.io/GraceAutomationWeb/instalaciones_domi4.jpeg" alt="Instalación eléctrica 4">
+            <img src="https://graceramirez25.github.io/GraceAutomationWeb/instalaciones_domi5.jpeg" alt="Instalación eléctrica 5">
+            <img src="https://graceramirez25.github.io/GraceAutomationWeb/instalaciones_domi6.jpeg" alt="Instalación eléctrica 6">
+            <img src="https://graceramirez25.github.io/GraceAutomationWeb/instalaciones_domi7.jpeg" alt="Instalación eléctrica 7">
+            <img src="https://graceramirez25.github.io/GraceAutomationWeb/instalaciones_domi8.jpeg" alt="Instalación eléctrica 8">
+        </div>
+    </section>
+
+    <div class="contact-buttons">
+        <a href="mailto:Grace.automatizacion@gmail.com?subject=Consulta%20sobre%20Instalaciones%20El%C3%A9ctricas%20Domiciliarias" target="_blank">Enviar Correo</a>
+        <a href="https://wa.me/56986621794?text=Hola,%20deseo%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Instalaciones%20El%C3%A9ctricas%20Domiciliarias." target="_blank">Enviar WhatsApp</a>
+    </div>
+</div>
+
+<footer>
+    <p>Av. Providencia 1208, Oficina 1603, Providencia | RUT: 77.182.306-8</p>
+    <p>Teléfono: +569 8662 1794 | Correo: Grace.automatizacion@gmail.com</p>
+</footer>
+
+</body>
+</html>
+
